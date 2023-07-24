@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #252681;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .book {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .book img {
+    width: 100%;
+    max-height: 200px;
+  }
+  
+  footer {
+    background-color: #252681;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+/* Navbar */
+
+header {
+    background-color: #252681;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 80px; /* Sesuaikan ukuran tinggi logo sesuai kebutuhan */
+    
+}
+
+.logo h1 {
+    margin-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  nav a:hover {
+    border-radius: 20px;
+    background-color: #040272;
+  }
+  
+  /* menu dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Search */
+  .search-container {
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    flex: 1;
+    border-radius: 20px;
+  }
+  
+
+/* Contact */
+main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #252681;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #256481;
+  }
+ 
